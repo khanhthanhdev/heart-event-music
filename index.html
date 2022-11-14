@@ -6,24 +6,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+    
   </head>
 
   <body>
-    <iframe src="audio.mp3" allow="autoplay" id="audio"></iframe>
-    <audio src="audio.mp3" autoplay></audio>
-    <!-- <audio controls autoplay="true">
-      <source src="waybackhome.mp3" type="audio/mp3"/>
-    </audio> -->
-    <!-- 星空html -->
-    <!-- <div> -->
+    <title>🙆‍♂️IMD</title>
+    <audio id="autoplay" autoplay>
+      <source src="audio.mp3">
+    </audio>
     <div class="container2">
       <div class="content">
         <canvas id="universe"></canvas>
       </div>
     </div>
-    <!-- </div> -->
     <div class="title">
-      <!-- EDIT HERE -->
       <h3 class="STARDUST1">2022</h3>
       <h1 class="STARDUST2">Hội quý ông</h1>
       <h3 class="STARDUST3"><strong>10 toán 2</strong></h3>
@@ -32,7 +28,9 @@
 
       </canvas>
     </div>
-
+    <script>
+      document.getElementById('autoplay').play();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="main.js"></script>
     <script src="particle.js"></script>
